@@ -1,0 +1,194 @@
+<html>
+  <head>
+    <title>First Web Page</title>
+  </head>
+
+  <body>
+    <!-- 
+            - Containers - div, section, article, header, footer, main, aside
+            -Headings - h1-h6 -->
+
+    <header>
+      <h1 name="top">Introduction to Webdevelopment</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about.html">About</a>
+          </li>
+          <li>
+            <a href="/contact-us.html">Contact</a>
+          </li>
+          <li>
+            <a href="/auth.html">Login/Signup</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Headings Section</h2>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <hr />
+      </section>
+      <section>
+        <h2>Paragraph Section</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <hr />
+      </section>
+      <section>
+        <h2 title="Welcome to Paragraph">Line Break Section</h2>
+        Paragraph 4 <br />
+        Para<br />graph 5
+        <hr />
+      </section>
+      <section>
+        <h2>Lists</h2>
+        <!-- ordered list -->
+        <h4>Ordered list</h4>
+        <ol>
+          <li>Mangoes</li>
+          <li>Bananas</li>
+          <li>Oranges</li>
+        </ol>
+        <h4>Unordered list</h4>
+        <ul>
+          <li>Mangoes</li>
+          <li>
+            Bananas
+            <ol>
+              <li>Sweet Bananas</li>
+              <li>Matoke</li>
+            </ol>
+          </li>
+          <li>Oranges</li>
+        </ul>
+        <hr />
+      </section>
+
+      <section>
+        <h2>Table Section</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Residence</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Fiona</td>
+              <td>Nairobi</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Praise</td>
+              <td>Kiambu</td>
+            </tr>
+          </tbody>
+        </table>
+        <hr />
+      </section>
+
+      <section>
+        <h2>Images</h2>
+        <img
+          width="300px"
+          src="https://plus.unsplash.com/premium_photo-1701127871438-af582cdd8c55?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Sunset Beach image"
+        />
+        <img
+        width="300px"
+        src="./images/2024-image.avif"
+        alt="2024 here we come"
+      />
+        <hr />
+      </section>
+      <section>
+        <h2>Text Formatting tags</h2>
+        <p>The <sub>subscript</sub> text</p>
+        <p>The <sup>superscript</sup> text</p>
+        <p>The <u>underlined</u> text</p>
+        <p>The <i>italisised</i> text and <em>italisised</em></p>
+        <p>The <b>Bold </b> text and <strong>Bold </strong></p>
+        <p>The <s>striked through</s> text</p>
+        <hr />
+      </section>
+
+      <section>
+        <h2>Buttons Section</h2>
+        <button>Login</button>
+        <button>Register</button>
+        <hr />
+      </section>
+
+      <section>
+        <h2>Form and Form input</h2>
+
+        <form>
+          <h3>Registration Form</h3>
+          <p>
+            <label>Username</label>
+            <input name="username" type="text" required />
+          </p>
+          <p>
+            <label>Email</label>
+            <input name="email" type="email" required />
+          </p>
+          <p>
+            <label>Password</label>
+            <input type="password"  />
+          </p>
+          <p>
+            <label>Age</label>
+            <input type ="number" name="age"  min="0"  max="200"/>
+          </p>
+
+          <p>
+            <h4>Gender</h4>
+            <input type ="radio" name="gender" value="m"  /> Male
+            <input type ="radio" name="gender"  value="f" /> Female
+            <input type ="radio" name="gender"  value="o" /> Other
+          </p>
+          <p>
+            <h4>Hobbies</h4>
+            <input type ="checkbox" name="hobby" value="jogging"  /> Jogging
+            <input type ="checkbox" name="hobby"  value="reading" /> Reading
+            <input type ="checkbox" name="hobby"  value="eating" /> Eating
+          </p>
+          <p>
+            <select name="language">
+<option >-- Choose One --</option>
+<option value="eng">English</option>
+<option value="fr">French</option>
+<option value="sp">Spanish</option>
+            </select>
+          </p>
+
+
+<button >Submit</button>
+<button type="reset">Clear</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      &copy; mylovelysite 2023
+      <p><a href="https://google.com/">Go to top</a></p>
+    </footer>
+  </body>
+</html>
